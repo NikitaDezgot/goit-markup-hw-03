@@ -23,6 +23,14 @@ body {
   color: #757575;
   font-family: Roboto, sans-serif;
 }
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  /* background-color: red; */
+}
 
 button {
   font-family: inherit;
@@ -37,14 +45,6 @@ button {
   background-color: #ffffff;
   padding-top: 42px;
   padding-bottom: 42px;
-}
-.conteiner {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 2px solid red;
-  /* background-color: red; */
 }
 
 .header-conteiner {
@@ -138,15 +138,27 @@ button {
 .hero {
   background-color: rgba(47, 48, 58, 1);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
+/* .hero-conteiner {
+  height: 600px;
+} */
 .hero-logo {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
+  padding-right: 237px;
+  /* padding-bottom: 30px; */
+  padding-left: 237px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 .hero-button {
+  width: 200px;
+  height: 50px;
   background-color: #2196f3;
   color: #ffffff;
   font-weight: bold;
@@ -155,13 +167,20 @@ button {
   align-items: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  align-items: center;
 }
+
+/* ABOUT */
+
 .about {
   background-color: #ffffff;
 }
 .about-all {
   color: #757575;
   list-style: none;
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-all-1 {
   color: #212121;
@@ -169,18 +188,22 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
-
 .about-all-text {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-
   letter-spacing: 0.03em;
+  padding-top: 10px;
+  margin-right: 30px;
 }
+
 .about-alll {
   background-color: #ffffff;
+  padding-bottom: 94px;
 }
 .about-alll-1 {
   color: #212121;
@@ -189,12 +212,22 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .about-alll-img {
   list-style: none;
+  display: flex;
 }
+.img1 {
+  margin-right: 30px;
+}
+
+/* TEAM */
+
 .our-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team-logo {
   color: #212121;
@@ -203,9 +236,15 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.our-team-list {
+  display: flex;
 }
 .our-team-img {
   list-style: none;
+  margin-right: 30px;
+  background-color: #ffffff;
 }
 .our-team-name {
   color: #212121;
@@ -214,6 +253,8 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .our-team-work {
   color: #757575;
@@ -222,11 +263,21 @@ button {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 .foot {
   background-color: #2f303a;
 }
-
+.foot-conteiner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.fot-logo {
+  margin-bottom: 20px;
+}
+.fot-adres:not(:last-child) {
+  margin-bottom: 9px;
+}
 .foot-logo-1 {
   color: #2196f3;
   font-family: Raleway, cursive;
@@ -235,6 +286,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .foot-logo-2 {
@@ -244,6 +296,7 @@ button {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 .foot-adres {
   list-style: none;
