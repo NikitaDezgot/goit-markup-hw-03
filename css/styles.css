@@ -3,7 +3,22 @@
 /* цвет фона заднего #E5E5E5 */
 /* Основной фон #FFFFFF */
 /* второй фон #2F303A */
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 body {
   color: #757575;
   font-family: Roboto, sans-serif;
@@ -15,8 +30,48 @@ button {
 .body-1 {
   color: #757575;
 }
+
+/* Header */
+
 .body-1-top {
   background-color: #ffffff;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  /* background-color: red; */
+}
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.body-1-top-logo {
+  margin-right: 93px;
+}
+.body-1-top-link {
+  display: flex;
+  align-items: center;
+}
+.body-1-top-adr {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.header-tel {
+  margin-right: 50px;
+}
+.header-item:not(:first-child) {
+  margin-left: 50px;
 }
 .body-1-top-logo {
   color: #2196f3;
@@ -77,6 +132,9 @@ button {
 .body-1-top-adr :focus {
   color: #2196f3;
 }
+
+/* HERO */
+
 .hero {
   background-color: rgba(47, 48, 58, 1);
   text-align: center;
